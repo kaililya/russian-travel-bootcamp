@@ -2,9 +2,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;    
+    line-height: 18px;
     color: #fff;
-    text-decoration: none;  
+    text-decoration: none;
     transition: opacity linear .2s ;
 }
 .footer__link:hover {
