@@ -1,8 +1,16 @@
 .cover {
     max-width: 1184px;
+    height: 740px;
     margin: 0 auto;
-    max-height: 740px;
+    outline: 1px solid rgb(59, 243, 151);
 }
+
+@media (max-width: 1184px) {
+    .cover {
+        height: calc(100vw * 0.625);
+        }
+}
+
 @media (max-width: 1024px) {
     .cover {
             width: 100%;

@@ -21,4 +21,4 @@
 - Вёрстка по макету в Figma.
 
 ## Сайт:
-- До сих пор не сгенерировался...
+- https://kaililya.github.io/russian-travel-bootcamp/
