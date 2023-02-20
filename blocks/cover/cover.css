@@ -1,0 +1,20 @@
+.cover {
+    max-width: 1184px;
+    margin: 0 auto;
+    max-height: 740px;
+}
+@media (max-width: 1024px) {
+    .cover {
+            width: 100%;
+        }
+}
+@media (max-width: 768px) {
+    .cover {
+             width: 100%;
+        }
+}
+@media (max-width: 320px) {
+    .cover {
+            width: 100%;
+        }
+}

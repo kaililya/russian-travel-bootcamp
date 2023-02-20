@@ -1,0 +1,29 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    width: 92.5%;
+    /* width: x% от размера секции по брифу к окну браузера 
+    (для 1280px и для других разрешений в @media) */
+    margin: 0 auto 92px;
+    gap: 16px;
+}
+@media (max-width: 1024px) {
+    .photo-grid {
+            width: 90.63%;
+            gap: 14px;
+        }
+}
+@media (max-width: 768px) {
+    .photo-grid {
+            width: 93.75%;
+            gap: 16px;
+            margin: 0 auto 88px;
+        }
+}
+@media (max-width: 320px) {
+    .photo-grid {
+            width: 90%;
+            gap: 12px;
+            margin: 0 auto 64px;
+        }
+}
