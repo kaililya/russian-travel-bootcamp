@@ -1,27 +1,17 @@
 .cover {
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     margin: 0 auto;
 }
 
 @media (max-width: 1184px) {
     .cover {
-        height: calc(100vw * 0.625);
-        }
+        min-height: calc(100vw * 0.625);
+    }
 }
 
 @media (max-width: 1024px) {
     .cover {
-            width: 100%;
-        }
-}
-@media (max-width: 768px) {
-    .cover {
-             width: 100%;
-        }
-}
-@media (max-width: 320px) {
-    .cover {
-            width: 100%;
-        }
+        width: 100%;
+    }
 }

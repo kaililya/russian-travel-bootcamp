@@ -24,11 +24,7 @@
         gap: 0 28px;
         }
 }
-@media (max-width: 994px) {
-    .place:nth-of-type(4n) .place__title {
-        max-width: 340px;
-        }
-}
+
 @media (max-width: 700px) {
     .place {
         margin: 0 0 50px 0;

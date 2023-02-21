@@ -1,5 +1,11 @@
 .intro__cell {
     max-width: 690px;
     margin: 0;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    max-width: 690px;
+    margin: 0;
 }

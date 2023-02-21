@@ -1,3 +1,5 @@
 .header__lang-link_selected {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px #fff solid;
+    line-height: 26px;
 }

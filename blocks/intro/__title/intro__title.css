@@ -12,13 +12,8 @@
             max-width: 720px;
         }
 }
-@media (min-width: 321px) and (max-width: 360px) {
-    .intro__title {
-            font-size: 31px;
-            line-height: 31px;
-        }
-}
-@media (max-width: 320px) {
+
+@media (max-width: 360px) {
     .intro__title {
             font-size: 32px;
             line-height: 35px;

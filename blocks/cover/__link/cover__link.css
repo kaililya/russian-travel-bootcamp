@@ -1,6 +1,6 @@
 .cover__link {
     position: relative;
-    height: 740px;
+    min-height: 740px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -8,7 +8,7 @@
     background-image: url('../../../images/cover/rshd.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     text-decoration: none;
 }
 .cover__link:before {
@@ -29,6 +29,6 @@
 
 @media (max-width: 1184px) {
     .cover__link {
-        height: calc(100vw * 0.625);
+        min-height: calc(100vw * 0.625);
         }
 }
