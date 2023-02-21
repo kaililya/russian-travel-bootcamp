@@ -1,5 +1,4 @@
 .header__lang-link_selected {
-    text-decoration: none;
-    border-bottom: 1px #fff solid;
-    line-height: 26px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
